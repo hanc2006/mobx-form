@@ -17,6 +17,16 @@ High performance, hook-based forms library for React, powered by MobX.
 
 Why another form library? Simple, I have not found _easy to use_ form libraries that leveraged the high performance of mobx. The mostly used form libraries don't use MobX underneath, and they struggle between performance and ease of use. With MobX you can have both.
 
+## React Version Support
+
+| React version | Support |
+|---------------|---------|
+| React 19      | ✅ Full support |
+| React 18      | ✅ Full support |
+| React 16/17   | ✅ Supported (use `mobx-react-lite` ≥ 3.4) |
+
+For React 18 and 19, `mobx-react-lite` version 4+ is recommended.
+
 ## Installation
 
 ```bash

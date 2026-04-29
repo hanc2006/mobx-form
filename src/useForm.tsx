@@ -415,7 +415,7 @@ export function useForm<Values extends FormValues>(
     Object.assign(form, {
       FormContext: withFormProvider(
         form,
-        (({ children }) => children) as React.FC<{ children?: ReactNode }>
+        (({ children }) => children ?? null) as React.FC<{ children?: ReactNode }>
       ),
       Form: withFormProvider(form, FormComp),
     })
