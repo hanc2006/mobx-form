@@ -1,4 +1,4 @@
-# [@mozartspa/mobx-react](https://mozartspa.github.io/mobx-form/)
+# [@hanc2006/mobx-react](https://hanc2006.github.io/mobx-form/)
 
 High performance, hook-based forms library for React, powered by MobX.
 
@@ -11,7 +11,7 @@ High performance, hook-based forms library for React, powered by MobX.
 - Powered by [MobX](https://mobx.js.org/)
 - Built with React hooks
 - Written in Typescript
-- [![Minzipped Size](https://badgen.net/bundlephobia/minzip/@mozartspa/mobx-form)](https://bundlephobia.com/package/@mozartspa/mobx-form)
+- [![Minzipped Size](https://badgen.net/bundlephobia/minzip/@hanc2006/mobx-form)](https://bundlephobia.com/package/@hanc2006/mobx-form)
 
 ## Motivation
 
@@ -41,8 +41,7 @@ yarn add mobx mobx-react-lite
 
 ## Links
 
-- [Docs](https://mozartspa.github.io/mobx-form/)
-- [API](https://mozartspa.github.io/mobx-form/docs/api/useForm)
+- [Docs](https://github.com/hanc2006/mobx-form)
 
 ## Quickstart
 
@@ -51,7 +50,7 @@ A minimal example, not exactly what you would use in a real project, but it give
 ```typescript
 import React from "react"
 import { observer } from "mobx-react-lite"
-import { useField, useForm } from "@mozartspa/mobx-form"
+import { useField, useForm } from "@hanc2006/mobx-form"
 
 const App = observer(() => {
   const form = useForm({
@@ -82,7 +81,7 @@ export default App
 
 Few things to note:
 
-- We import `useForm` and `useField` from the package `@mozartspa/mobx-form`.
+- We import `useForm` and `useField` from the package `@hanc2006/mobx-form`.
 - We wrap our component with [`observer()`](https://mobx.js.org/react-integration.html), since we're using MobX.
 - `useForm()` gives us back a stable reference to our form instance.
 - `useField()` gives us back a reference to a specific field of our form. We pass it the `form` instance, to make it know which form it should be bound to. It's required here, but in other examples we'll leverage the React Context.
