@@ -3,9 +3,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mozartspa/mobx-form.git"
+    "url": "https://github.com/hanc2006/mobx-form.git"
   },
-  "homepage": "https://mozartspa.github.io/mobx-form/",
+  "homepage": "https://github.com/hanc2006/mobx-form",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -32,7 +32,7 @@
       "pre-commit": "tsdx lint"
     }
   },
-  "name": "@mozartspa/mobx-form",
+  "name": "hanc2006/mobx-form",
   "description": "High performance, hook-based forms library for React powered by MobX",
   "keywords": [
     "mobx-form",
