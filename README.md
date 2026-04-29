@@ -30,7 +30,7 @@ For React 18 and 19, `mobx-react-lite` version 4+ is recommended.
 ## Installation
 
 ```bash
-yarn add @mozartspa/mobx-form
+yarn add @hanc2006/mobx-form
 ```
 
 Then install the peer-dependencies: [mobx](https://github.com/mobxjs/mobx) and [mobx-react-lite](https://github.com/mobxjs/mobx/tree/main/packages/mobx-react-lite)
