@@ -1,5 +1,5 @@
 {
-  "version": "0.7.0",
+  "version": "1.0.2",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -32,7 +32,7 @@
       "pre-commit": "tsdx lint"
     }
   },
-  "name": "hanc2006/mobx-form",
+  "name": "@hanc2006/mobx-form",
   "description": "High performance, hook-based forms library for React powered by MobX",
   "keywords": [
     "mobx-form",
